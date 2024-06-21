@@ -1,0 +1,91 @@
+/*styles for Side Navigation */
+header {
+    height: 100;
+    width: 200;
+    position: relative;
+    top: 0;
+    left:0;
+    background-color: white;
+    padding-top: 20px;
+
+}
+nav ul{
+    list-style-type: square;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+
+}
+nav ul l a{
+    text-decoration: none;
+    color: brown;
+
+}
+nav ul li a:hover {
+    background-color: antiquewhite;
+}
+/*style for content Area*/
+.contanier{
+    margin-left: 200px;/*same as sidenav width*/
+}
+
+.content{
+    padding: 20px;
+}
+/*responsive styles*/
+@media only screen and (Max-width:600px)
+
+    .contanier{
+        margin-left: 200PX;
+
+    }
+    .Sidenav{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    /*style for Home Style*/
+    #home{
+        text-align: center;
+        padding: 20px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   #home img{
+    width: 20px;
+    height:100vh ;
+   }
+   #home p {
+    font-size: larger;
+   }
+  
+  /*Styles for ingredients section*/
+  #ingredients{
+    text-align: center;
+    font-style: italic;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+
+
+
+        
+
+       
+    
+    
+    
+
+
