@@ -1,17 +1,20 @@
 /*styles for Side Navigation */
+body{
+  background-color: powderblue;
+  padding: 0px;
+  margin: 0px;
+}
 header {
     height: 100%;
-    width: 200px;
+    width: 100%;
     position: relative;
     top: 0;
-    left:0;
-    background-color:orange
-    padding-top 20px;
+    text-align: center;
+    background-color: palegreen;
+    padding-top: 20px;
+    margin-top: 0px
      }
     
-body{background-color: bisque;
-
-}
 h1 {
     font-size: larger;
     text-align: center
@@ -105,7 +108,7 @@ nav ul li a:hover {
   }
   /*style for recipe section*/
   #recipe {
-    align-self: flex-start;
+    align-items: baseline;
     padding: 20px;
     height: 100vh;
     display: flex;
@@ -114,9 +117,9 @@ nav ul li a:hover {
     flex-direction: column;
     font-size: larger;
   }
-  #recipe ol {
+/*  #recipe ol {
 
-  }
+  }*/
   #recipe ol li{
     margin-bottom: 10px;
   }
