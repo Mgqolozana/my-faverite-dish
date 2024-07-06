@@ -5,12 +5,12 @@ header {
     position: relative;
     top: 0;
     left:0;
-    background-color: purple
-    padding-top: 20px;
+    background-color:orange
+    padding-top 20px;
+     }
+    
+body{background-color: bisque;
 
-}
-body{
-    background-color:burlywood;
 }
 h1 {
     font-size: larger;
@@ -27,7 +27,7 @@ nav ul{
 }
 nav ul l a{
     text-decoration: none;
-    color: brown;
+    color: rgb(42, 165, 108);
 
 }
 nav ul li a:hover {
@@ -105,7 +105,7 @@ nav ul li a:hover {
   }
   /*style for recipe section*/
   #recipe {
-    text-align: center;
+    align-self: flex-start;
     padding: 20px;
     height: 100vh;
     display: flex;
